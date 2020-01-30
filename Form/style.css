@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    color: white;
+    background-color: #1E1F26;
+    height: 50px;
+}
+
+.container {
+    background-color: #373787;
+    font-size: 15px;
+    color: white;
+    padding-top: 40px;
+    opacity: 0.9;
+}
+
+header {
+    text-align: center;
+}
+
+#text1 {
+    padding: 2px 0px;
+    font-style: italic;
+    margin: 15px 0;
+    padding-bottom: 15px;
+}
+
+main {
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 60%;
+    padding: 40px;
+    border-radius: 5px;
+}
+
+#survey-form {
+    font-size: 1.1rem;
+}
+
+.form-group {
+    margin-bottom: 30px;
+}
+
+input[type="text"], input[type="email"], input[type="number"], textarea {
+    width: 800px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 0 solid transparent;
+    margin-top: 10px;
+    font-size: 1rem;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    height: 20px;
+    width: 20px;
+}
+
+.check-group {
+    display: flex;
+    margin-top: 10px;
+}
+
+.check-label {
+    margin-left: 10px;
+}
+
+.gap-width {
+    width: 820px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 0 solid transparent;
+    margin-top: 10px;
+    font-size: 1rem;
+}
+
+.label-span {
+    font-size: 0.8rem;
+}
+
+textarea {
+    resize: none;
+}
+
+
+button {
+    color: white;
+    background-color: #37AF65;
+    border: 0;
+    font-family: 'Roboto', sans-serif;
+    width: 820px;
+    font-size: 1.1rem;
+    padding: 10px 0;
+    margin-bottom: 40px;
+}
+
